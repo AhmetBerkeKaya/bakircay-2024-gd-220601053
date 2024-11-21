@@ -33,7 +33,7 @@ Bu proje şu klasörlerden oluşmaktadır:
 - **Prefabs**: Her türlü objenin olduğu prefab klasörü.
 - **Scenes**: Oyun sahneleri.
 - **Scripts**: Oyun mantığını kontrol eden C# script dosyaları.
-- 
+  
 
 ## Özellikler
 
