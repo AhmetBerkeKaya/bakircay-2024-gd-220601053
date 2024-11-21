@@ -22,7 +22,11 @@ Bu oyun, oyuncuların ekrandaki objeleri alıp yerleştirme alanına yerleştirm
 
 Aşağıda oyunun işleyişini gösteren kısa bir ekran kaydı bulunmaktadır. Kaydı izleyerek oyun hakkında daha fazla bilgi edinebilirsiniz.
 
-[Oyun Video Önizlemesi](link-video)
+
+
+https://github.com/user-attachments/assets/48c817ca-36f5-4205-86b8-f3f501c5359d
+
+
 
 ## Proje Yapısı
 
