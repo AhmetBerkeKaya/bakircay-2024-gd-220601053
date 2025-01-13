@@ -1,59 +1,55 @@
-# bakircay-2024-gd-220601053
-
 # Bakırçay Fall-2024 Game Development
 
-## Proje Özeti
+## Project Overview
+This repository hosts the materials and instructions for a two-part game development assignment in Unity. Students will progressively build a simplified 3D matching game, divided into two phases: a midterm and a final exam.
 
-Bu proje, Unity kullanarak basitleştirilmiş bir 3D eşleştirme oyununun geliştirilmesini içeren bir görevdir.
+### Assets
+All necessary models, animations, and UI assets required for this project are provided in this repository.
 
-Projenin amacı, kullanıcıların rastgele dağılmış 3D objeleri bir yerleştirme alanına yerleştirerek eşleştirme yapmalarını sağlamaktır. Oyun, temel nesne etkileşimi, birden fazla obje, yerleştirme alanı ve animasyon içermektedir.
+## Important Notes
+- **Deadline:** Make sure to submit your repository link before the due date.
+- **Unity Version:** Ensure your project is compatible with Unity 2022.3.50 or above.
+- **Screen Capture Tips:** Ensure the gameplay is clearly visible and captures the main gameplay elements.
+- **README:** Ensure the README is detailed and includes a preview of the gameplay.
 
-## Oyun Özeti
-
-Bu oyun, oyuncuların ekrandaki objeleri alıp yerleştirme alanına yerleştirmeleri gereken basit bir 3D eşleştirme oyunudur. Obje yerleştirme işlemi, animasyonlu platforma düşen objelerle desteklenmiştir. Ayrıca UI üzerinden oyuncunun skoru da gösterilmektedir.
-
-### Oyun Kuralları:
-1. Oyuncu, ekrandaki rastgele dağılmış 3D objeleri alıp, yerleştirme alanına yerleştirebilir.
-2. Oyuncu farklı obje koyması durumunda objeler etrafa kuvvet sayesinde fırlamaktadır.
-3. Eşleşen objeler yok edilir ve bu işlem animasyonla görselleştirilir.
-4. Oyuncunun skoru, yerleştirilen doğru nesnelerle artar.
-
-## Gameplay Önizlemesi
-
-Aşağıda oyunun işleyişini gösteren kısa bir ekran kaydı bulunmaktadır. Kaydı izleyerek oyun hakkında daha fazla bilgi edinebilirsiniz.
-
-
-
-https://github.com/user-attachments/assets/48c817ca-36f5-4205-86b8-f3f501c5359d
-
-
-
-## Proje Yapısı
-
-Bu proje şu klasörlerden oluşmaktadır:
-- **Animations**: Animasyon dosyalarının bulunduğu klasör.
-- **Materials**: Oyanan zemin gibi objelerin materyalleri.
-- **Models**: Objelerin modelleri.
-- **Prefabs**: Her türlü objenin olduğu prefab klasörü.
-- **Scenes**: Oyun sahneleri.
-- **Scripts**: Oyun mantığını kontrol eden C# script dosyaları.
+## Submission Instructions
+- **GitHub Repository:** Create a GitHub repository for your project. To submit your project, send the link with your student info to [seref@blendedgames.com](mailto:seref@blendedgames.com).
   
+- **Repository Name (optional but preferred):** Follow the naming convention: 
+```
+bakircay-2024-gd-<StudentNumber>.
+```
 
-## Özellikler
+- **Repository Structure:** Create a repository with a `README.md` and `.gitignore` file for Unity. Include the Unity project files organized in standard folders (Assets, Scenes, Scripts, etc.).
 
-- **Temel Oyun Alanı**: Oyun alanı, 3D objelerle rastgele dağılmıştır.
-- **Yerleştirme Alanı**: Objelerin yerleştirilebileceği bir alan.
-- **Objelerin Taşınması**: Oyuncu, objeleri sürükleyip yerleştirme alanına bırakabilir.
-- **Animasyonlar**: Objeler yerleştirilip eşleştiğinde platform animasyonu ile yok edilir.
-- **Skor Takibi**: UI üzerinden oyuncunun skoru takip edilir.
+- **Gameplay Screen Capture:** Capture a short screen recording of your game in action, showing the required functionality. Place the recording in the `README.md` file under the "Gameplay Preview" section (see example below). The capture should clearly show the game area, placement area, and UI elements.
 
-## Bonus Özellikler
+- **README.md:** Include the following sections in your README:
+  - **Project Overview:** A brief summary of the project’s goals and requirements.
+  - **Gameplay Preview:** Include a screenshot or link to a screen recording of the game.
 
-Bu aşamada bonus olarak, oyun alanındaki objelerin düşme platformuna yerleştirilmesi animasyonlarla desteklenmiştir. Ayrıca, oyuncunun ilerleyişini takip etmek amacıyla skor UI'si eklenmiştir.
+---
 
-## Kullanılan Teknolojiler
+## Midterm Project (Due Date: 22 Nov 2024, Friday 23:59)
+In the midterm phase, students will:
 
-- **Unity 2022.3.50**: Oyun geliştirme platformu.
-- **C#**: Oyun mantığının yazıldığı programlama dili.
-- **Animasyonlar**: Objelerin yerleştirilmesi ve eşleşmesi sırasında kullanılan animasyonlar.
+1. **Basic Game Setup:**
+ - **Game Area:** Set up a central area where 3D objects are scattered randomly.
+ - **Placement Area:** Create a circular placement area at the bottom of the screen where players can place objects.
+
+2. **Object Interaction:**
+ - **Object Movement:** Implement functionality for players to pick up and drag objects using touch or mouse input.
+ - **Object Placement:** Ensure players can place only one object in the designated placement area at a time.
+
+  **Bonus (Optional):**	
+  - Additional creative gameplay features, visual polish, or UI enhancements beyond midterm requirements. The bonus points are optional and awarded for extra effort, such as adding subtle effects, animations, or aesthetic improvements.
+
+--- 
+## 📢 Final and Make-up Exams Announcement
+
+[Click here](https://github.com/SerefFilizcan/bakircay-2024/discussions/6) to view the full announcement on GitHub Discussions.
+
+## Example Game Preview
+
+ <img src="https://github.com/user-attachments/assets/2ecd843d-acbf-4518-ab2a-397911527278" width="400"> 
 
